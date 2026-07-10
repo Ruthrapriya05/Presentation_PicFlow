@@ -6,6 +6,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
 
 .content {
@@ -172,4 +174,15 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.reels-feed {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.reels-feed::-webkit-scrollbar {
+    display: none;
 }
