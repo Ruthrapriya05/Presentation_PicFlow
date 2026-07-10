@@ -77,7 +77,7 @@ export default function Message() {
           </div>
 
           <div className="chat">
-            <img src="/messages/Alone_Girl.jpg" className="chatPic" />
+            <img src="/messages/alone_girl.jpg" className="chatPic" />
             <div>
               <h4>Alone_Girl</h4>
               <p>You sent an attachment · 1w</p>
